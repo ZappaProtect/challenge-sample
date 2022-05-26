@@ -26,6 +26,8 @@ Once the challenge renders as you'd like, you may test the functionality inside 
 
 Your challenge should be created inside the `src/challenge` folder. 
 
+
+
 # [Challenge Name]
 A brief explanation of the challenge that is being developed.
 
