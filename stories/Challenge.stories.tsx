@@ -14,9 +14,29 @@ const Template: ComponentStory<typeof ZappaComponent> = args => (
   </div>
 );
 
-export const Default = Template.bind({});
-Default.args = {
+export const Success = Template.bind({});
+Success.args = {
   siteKey: '11111111',
+  challenges: [Challenge, Challenge],
+  acceptableScore: 84,
+  verifyCallback: (score, recommendation, passed) => {
+    console.log(`Score of ${score} has a recommendation of ${recommendation}`);
+  },
+};
+
+export const FailSiteValidation = Template.bind({});
+FailSiteValidation.args = {
+  siteKey: '22222222',
+  challenges: [Challenge, Challenge],
+  acceptableScore: 84,
+  verifyCallback: (score, recommendation, passed) => {
+    console.log(`Score of ${score} has a recommendation of ${recommendation}`);
+  },
+};
+
+export const Failure = Template.bind({});
+Failure.args = {
+  siteKey: '33333333',
   challenges: [Challenge, Challenge],
   acceptableScore: 84,
   verifyCallback: (score, recommendation, passed) => {
