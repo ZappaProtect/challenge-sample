@@ -3276,10 +3276,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@zappahq/react@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@zappahq/react/-/react-0.1.15.tgz#0b5664eda5e041168d2deb0c9e5f46d2c8658ab2"
-  integrity sha512-2XTl7SVu381vtnl9oYwYNZo2dGfXd2AyJISuQ0GC+76crozGgYc/fmXRF2BoeRNxo+ObGVtYBRXry/SYbWbt8Q==
+"@zappahq/react@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@zappahq/react/-/react-0.1.16.tgz#c1e95c256c67731eaa4dfff9a37614ee85ef8fd8"
+  integrity sha512-meLFa2NtY4WS08YGQJsACXOtfA8DPz9ENf4sM1KplOaO69TUbpzgmMg8wWn4W7uGCB6FlrOQIdJ5Yi6Jz3KH0g==
   dependencies:
     "@boomid/core" "^0.1.26"
     socket.io-client "^4.5.0"
